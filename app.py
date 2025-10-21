@@ -4,7 +4,7 @@ import os
 import json
 from datetime import datetime
 from text_parser import parse_text_file
-from addendum_generator_branded import generate_complete_playbook_branded
+from addendum_generator import generate_complete_playbook_branded
 
 app = Flask(__name__)
 CORS(app)
